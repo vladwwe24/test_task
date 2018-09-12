@@ -1,0 +1,54 @@
+#msg {
+    padding-top: 125px;
+    }
+
+#msg p{
+    font-family: 'Concert One', cursive;
+    color: white;
+}
+
+#button {
+    padding-left: 500px;
+}
+
+#button a {
+        color: white;
+        font-family: 'Concert One', cursive;
+        background: transparent;
+        border: solid 3px white;
+        border-radius: 50px;
+}
+
+#button a:hover {
+        background-color: white;
+        color: #749EFF;
+
+}
+
+.form {
+        border: solid 3px white;
+        border-radius: 50px;
+        width: 1000px;
+        height: 350px;
+        margin-left: 150px;
+        padding-left: 150px;
+        padding-top: 20px;
+}
+
+.form-1 {
+
+        border: solid 3px white;
+        border-radius: 50px;
+        width: 600px;
+        height: 200px;
+        margin-left: 335px;
+        padding-left: 150px;
+        padding-top: 35px;
+}
+
+
+.jumbotron{
+        padding-top: 0px;
+        background: transparent;
+        margin-bottom: 0px;
+}

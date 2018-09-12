@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Screen</title>
+    <link rel="shortcut icon" href="static/loginscreen/image/logo.png" type="image/png">
+    {% load staticfiles %}
+    <link rel="shortcut icon" href="{% static 'loginscreen/image/favicon.png' %}" type="image/png">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/css3/my_main.css' %}" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+</head>
+<body style="background: url({% static 'loginscreen/image/fon.jpg' %});">
+
+<div id="msg">
+    <p class="text-center text-uppercase display-4"><a href="/" style="text-decoration: none; color: white;">Welcome to registration form</a></p>
+</div>
+
+<div class="jumbotron">
+
+{% block content %}
+
+{% endblock %}
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{% extends "loginscreen/wrapper.html" %}
+
+{% block content %}
+<div class="form-1">
+<form action="" method="post" style="color: grey; font-family: 'Kosugi Maru', sans-serif;" >
+      {% csrf_token %}
+
+      {{ form.as_p }}
+      <button type="submit" class="btn btn-success  btn-lg" style="margin-left: 100px;">LogIn</button>
+</form>
+</div>
+{% endblock %}
