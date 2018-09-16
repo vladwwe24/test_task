@@ -8,7 +8,7 @@
 }
 
 #button {
-    padding-left: 500px;
+    padding-left: 450px;
 }
 
 #button a {
@@ -17,6 +17,7 @@
         background: transparent;
         border: solid 3px white;
         border-radius: 50px;
+        padding-top: 0px;
 }
 
 #button a:hover {
